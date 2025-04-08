@@ -48,7 +48,7 @@
                                         </h4>
                                         <div class="card-price">
 {{--                                            <span class="discount">Rp. 300.000</span>--}}
-                                            <span class="reguler">{{$product->price}} USD.</span>
+                                            <span class="reguler">{{$product->price}} IRR.</span>
                                         </div>
                                         <a href="{{route('single.product',$product->id)}}" class="btn btn-block btn-primary">
                                             نمایش جزئیات

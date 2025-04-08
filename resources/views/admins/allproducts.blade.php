@@ -28,7 +28,7 @@
                         <tr>
                             <th scope="col">#</th>
                             <th scope="col">محصول</th>
-                            <th scope="col">قیمت به دلار</th>
+                            <th scope="col">قیمت به ریال</th>
                             <th scope="col">تاریخ انقضا</th>
                             <th scope="col">حذف</th>
                         </tr>

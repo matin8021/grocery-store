@@ -12,15 +12,15 @@
                     <!-- Email input -->
                     @csrf
                     <div class="form-outline mb-4 mt-4">
-                        <input type="email" name="email" id="form2Example1" class="form-control" placeholder="email" />
+                        <input type="email" name="email" id="form2Example1" class="form-control" placeholder="ایمیل" />
 
                     </div>
 
                     <div class="form-outline mb-4">
-                        <input type="text" name="name" id="form2Example1" class="form-control" placeholder="name" />
+                        <input type="text" name="name" id="form2Example1" class="form-control" placeholder="نام" />
                     </div>
                     <div class="form-outline mb-4">
-                        <input type="password" name="password" id="form2Example1" class="form-control" placeholder="password" />
+                        <input type="password" name="password" id="form2Example1" class="form-control" placeholder="پسورد" />
                     </div>
 
 
@@ -30,7 +30,7 @@
 
 
                     <!-- Submit button -->
-                    <button type="submit" name="submit" class="btn btn-primary  mb-4 text-center">create</button>
+                    <button type="submit" name="submit" class="btn btn-primary  mb-4 text-center">افزودن</button>
 
 
                 </form>

@@ -55,7 +55,7 @@
                                 <a href="{{route('about')}}" class="nav-link">درباره ما</a>
                             </li>
                             <li class="nav-item">
-                                <a href="{{route('contact')}}" class="nav-link">مخاطب</a>
+                                <a href="{{route('contact')}}" class="nav-link">تماس با ما</a>
                             </li>
                             <li class="nav-item">
                                 <a href="{{route('products.shop')}}" class="nav-link">فروشگاه</a>
@@ -173,11 +173,11 @@
                         <h5>Get Our App</h5>
                         <ul class="mb-0">
                             <li class="download-app">
-                                <a href="#"><img src="assets/img/playstore.png"></a>
+                                <a href="#"><img src="{{asset('assets/img/playstore.png')}}"></a>
                             </li>
                             <li style="height: 200px">
                                 <div class="mockup">
-                                    <img src="assets/img/mockup.png">
+                                    <img src="{{asset('assets/img/mockup.png')}}">
                                 </div>
                             </li>
                         </ul>

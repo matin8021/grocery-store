@@ -27,7 +27,7 @@
                             </div>
                             <div class="card-body">
                                 <h4 class="card-title">
-                                    Buy
+                                    خرید
                                 </h4>
                                 <p class="card-text">
                                     به سادگی روی محصول مورد نظر خود برای خرید کلیک کنید و پس از اتمام سفارش خود را ارسال کنید.
@@ -45,7 +45,7 @@
                             </div>
                             <div class="card-body">
                                 <h4 class="card-title">
-                                    Harvest
+                                    برداشت
                                 </h4>
                                 <p class="card-text">
                                     تیم ما تضمین می کند که کیفیت محصول مطابق با استاندارد ما است و ظرف 24 ساعت پس از روز برداشت محصول را درب منزل تحویل می دهد.
@@ -107,7 +107,7 @@
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">
-                                Know Your Farmers
+                                کشاورزان خود را بشناسید
                             </h4>
                             <p class="card-text">
                                 می‌خواهیم با داشتن نمایه کشاورزان در هر مورد و صفحه کشاورز، دقیقاً بدانید چه کسی غذای شما را پرورش می‌دهد. می‌توانید از مزارع دیدن کنید و عشقی را که در پرورش غذای شما انجام می‌دهند، ببینید.
@@ -147,7 +147,7 @@
             @foreach($categories as $category)
                 <div class="item">
                     <div class="card rounded-0 border-0 text-center">
-                        <img src="{{asset('assets/img/'.$category->image.'')}}">
+                        <img src="{{asset('assets/img/'.$category->image)}}">
                         <div class="card-img-overlay d-flex align-items-center justify-content-center">
                             <!-- <h4 class="card-title">Vegetables</h4> -->
                             <a href="{{route('single.category',$category->id)}}" class="btn btn-primary btn-lg">{{$category->name}}</a>

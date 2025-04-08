@@ -6,7 +6,7 @@
             <div class="jumbotron jumbotron-bg text-center rounded-0" style="margin-top: -25px; background-image: url('{{asset('assets/img/bg-header.jpg')}}');">
                 <div class="container">
                     <h1 class="pt-5">
-                        Checkout
+                        بررسی سبد خرید
                     </h1>
                     <p class="lead">
                         در زمان صرفه جویی کنید و مواد غذایی را به ما بسپارید.
@@ -26,33 +26,33 @@
                                 @csrf
                                 <div class="form-group row">
                                     <div class="col">
-                                        <input class="form-control" name="name" placeholder="Name" type="text">
+                                        <input class="form-control" name="name" placeholder="نام" type="text">
                                     </div>
                                     <div class="col">
-                                        <input class="form-control" name="last_name" placeholder="Last Name" type="text">
+                                        <input class="form-control" name="last_name" placeholder="نام خانوادگی" type="text">
                                     </div>
                                 </div>
 {{--                                <div class="form-group">--}}
 {{--                                    <input class="form-control" placeholder="Company Name" type="text">--}}
 {{--                                </div>--}}
                                 <div class="form-group">
-                                    <textarea class="form-control" name="address" placeholder="Address"></textarea>
+                                    <textarea class="form-control" name="address" placeholder="آدرس"></textarea>
                                 </div>
                                 <div class="form-group">
-                                    <input class="form-control" name="town" placeholder="Town / City" type="text">
+                                    <input class="form-control" name="town" placeholder="شهر / استان" type="text">
                                 </div>
                                 <div class="form-group">
-                                    <input class="form-control" name="state" placeholder="State / Country" type="text">
+                                    <input class="form-control" name="state" placeholder="کشور / منطقه" type="text">
                                 </div>
                                 <div class="form-group">
-                                    <input class="form-control" name="zip_code" placeholder="Postcode / Zip" type="text">
+                                    <input class="form-control" name="zip_code" placeholder="کد پستی" type="text">
                                 </div>
                                 <div class="form-group row">
                                     <div class="col">
-                                        <input class="form-control" name="email" placeholder="Email Address" type="email">
+                                        <input class="form-control" name="email" placeholder="ایمیل" type="email">
                                     </div>
                                     <div class="col">
-                                        <input class="form-control" name="phone_number" placeholder="Phone Number" type="tel">
+                                        <input class="form-control" name="phone_number" placeholder="شماره همراه" type="tel">
                                     </div>
                                 </div>
 
@@ -67,7 +67,7 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <textarea class="form-control" name="order_notes" placeholder="Order Notes"></textarea>
+                                    <textarea class="form-control" name="order_notes" placeholder="یادداشت های سفارش"></textarea>
                                 </div>
                             </fieldset>
 
@@ -84,7 +84,7 @@
                                 <table class="table">
                                     <thead>
                                     <tr>
-                                        <th>Products</th>
+                                        <th>محصولات</th>
                                         <th class="text-right">جمع</th>
                                     </tr>
                                     </thead>
@@ -95,7 +95,7 @@
                                             {{$product->name}} x{{$product->qty}}
                                         </td>
                                         <td class="text-right">
-                                            USD {{$product->subtotal}}
+                                            IRR {{$product->subtotal}}
                                         </td>
                                     </tr>
                                     @endforeach
@@ -106,7 +106,7 @@
                                                 <strong>جمع سبد خرید</strong>
                                             </td>
                                             <td class="text-right">
-                                                USD {{$checkoutSubtotal}}
+                                                IRR {{$checkoutSubtotal}}
                                             </td>
                                         </tr>
                                         <tr>
@@ -114,7 +114,7 @@
                                                 <strong>هزینه ی حمل</strong>
                                             </td>
                                             <td class="text-right">
-                                                USD 20
+                                                IRR 20
                                             </td>
                                         </tr>
                                         <tr>
@@ -122,7 +122,7 @@
                                                 <strong>سفارش کل</strong>
                                             </td>
                                             <td class="text-right">
-                                                <strong>USD {{$checkoutSubtotal + 20}}</strong>
+                                                <strong>IRR {{$checkoutSubtotal + 20}}</strong>
                                             </td>
                                         </tr>
                                     </tfooter>

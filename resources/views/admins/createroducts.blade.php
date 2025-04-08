@@ -12,13 +12,13 @@
                     <div class="form-outline mb-4 mt-4">
                         <label>نام</label>
 
-                        <input type="text" name="name" id="form2Example1" class="form-control" placeholder="name" />
+                        <input type="text" name="name" id="form2Example1" class="form-control" placeholder="نام" />
                     </div>
 
                     <div class="form-outline mb-4 mt-4">
-                        <label>Price</label>
+                        <label>قیمت</label>
 
-                        <input type="text" name="price" id="form2Example1" class="form-control" placeholder="price" />
+                        <input type="text" name="price" id="form2Example1" class="form-control" placeholder="قیمت" />
                     </div>
 
                     <div class="form-group">
@@ -29,7 +29,7 @@
                     <div class="form-group">
                         <label for="exampleFormControlSelect1">انتخاب دسته بندی</label>
                         <select name="category_id" class="form-control" id="exampleFormControlSelect1">
-                            <option>--select category--</option>
+                            <option>--انتخاب دسته بندی--</option>
                             @foreach($allcategories as $category)
                                 <option value="{{$category->id}}">{{$category->name}}</option>
                             @endforeach
@@ -51,13 +51,13 @@
                     <div class="form-outline mb-4 mt-4">
                         <label>تصویر</label>
 
-                        <input type="file" name="image" id="form2Example1" class="form-control" placeholder="image" />
+                        <input type="file" name="image" id="form2Example1" class="form-control" placeholder="تصویر" />
                     </div>
 
 
 
                     <!-- Submit button -->
-                    <button type="submit" name="submit" class="btn btn-primary  mb-4 text-center">create</button>
+                    <button type="submit" name="submit" class="btn btn-primary  mb-4 text-center">افزودن</button>
 
 
                 </form>

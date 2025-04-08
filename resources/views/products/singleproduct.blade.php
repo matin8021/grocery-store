@@ -41,7 +41,7 @@
                         <div class="col-sm-6">
                             <p>
                                 <strong>قیمت</strong><br>
-                                <span class="price">USD {{$product->price}}</span>
+                                <span class="price">IRR {{$product->price}}</span>
 {{--                                <span class="old-price">Rp 150.000</span>--}}
                             </p>
                         </div>
@@ -113,7 +113,7 @@
                                         </h4>
                                         <div class="card-price">
 {{--                                            <span class="discount">Rp. 300.000</span>--}}
-                                            <span class="reguler">USD. {{$relatedproduct->price}}</span>
+                                            <span class="reguler">IRR. {{$relatedproduct->price}}</span>
                                         </div>
                                         <a href="{{route('single.product',$relatedproduct->id)}}" class="btn btn-block btn-primary">
                                             جزئیات محصول

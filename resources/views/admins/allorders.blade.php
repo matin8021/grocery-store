@@ -38,7 +38,7 @@
                             <td>{{$order->email}}</td>
                             <td>{{$order->state}}</td>
                             <td>{{$order->status}}</td>
-                            <td>${{$order->price}}</td>
+                            <td>{{$order->price}}</td>
                             <td>{{$order->address}}</td>
                             <td>{{$order->created_at}}</td>
                             <td>

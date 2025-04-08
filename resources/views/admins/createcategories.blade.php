@@ -11,7 +11,7 @@
                     <!-- Email input -->
                     @csrf
                     <div class="form-outline mb-4 mt-4">
-                        <input type="text" name="name" id="form2Example1" class="form-control" placeholder="name" />
+                        <input type="text" name="name" id="form2Example1" class="form-control" placeholder="نام" />
                     </div>
                     <div class="form-outline mb-4 mt-4">
                         <input type="text" name="icon" id="form2Example1" class="form-control" placeholder="icon" />
